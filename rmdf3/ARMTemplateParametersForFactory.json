@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "rmdf3"
+		},
+		"integrationRuntime_SelfHostedIntegrationRuntime": {
+			"value": "SelfHostedIntegrationRuntime"
+		},
+		"rmadlsgen2_accountKey": {
+			"value": ""
+		},
+		"rmblob_connectionString": {
+			"value": ""
+		},
+		"rmadlsgen2_properties_typeProperties_url": {
+			"value": "https://rmadlsgen2.dfs.core.windows.net"
+		}
+	}
+}
