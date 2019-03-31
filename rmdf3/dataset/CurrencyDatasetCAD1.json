@@ -9,7 +9,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "dataflowtemplate"
+				"fileName": "Currency_CAD.txt",
+				"container": "demo"
 			},
 			"columnDelimiter": "\t",
 			"firstRowAsHeader": false
